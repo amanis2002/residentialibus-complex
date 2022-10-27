@@ -1,0 +1,81 @@
+.main-title{
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 125%;
+  text-transform: uppercase;
+  @media (max-width: 479.98px) {
+    font-size: 24px;
+  }
+}
+
+.base-text{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: #FFFFFF;
+  @media (max-width: 479.98px) {
+    font-size: 18px;
+  }
+}
+
+.main-text{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  @media (max-width: 479.98px) {
+    font-size: 14px;
+  }
+}
+
+.small-text{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 135%;
+  color: #000000;
+}
+
+.base-input{
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  height: 62px;
+  padding: 18px 29px 20px;
+  &::placeholder{
+    color: #C4C4C4;
+  }
+  @media (max-width: 479.98px) {
+    height: 52px;
+    font-size: 18px;
+    padding: 19px 14px 16px;
+  }
+}
+
+.base-button{
+  display: block;
+  height: 51px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  white-space: nowrap;
+  @media (max-width: 479.98px) {
+    height: 39px;
+    font-size: 18px;
+  }
+}
+
+.green-button{
+  @extend .base-button;
+  background: linear-gradient(34.66deg, #82B428 16.88%, #C5D210 76%);
+}
+
+.blue-button{
+  @extend .base-button;
+  background: linear-gradient(34.66deg, #2DA3DC 16.88%, #30D3DD 76%);
+}
